@@ -1,0 +1,134 @@
+body{
+background-color: whitesmoke; 
+font-family: 'Nunito', sans-serif; 
+} 
+
+.title{ 
+color: black; 
+text-align: center; 
+font-size: 55px; 
+margin-bottom: 0; 
+} 
+
+#subtitle{ 
+color: gray; 
+text-align: center; 
+font-size: 35px; 
+} 
+
+.toplinks{ 
+text-decoration: none; 
+font-size: 25px; 
+color: white; 
+background-color: #ff9900; 
+padding-bottom: 22px; 
+padding-top: 20px; 
+padding-left: 50px; 
+padding-right: 50px; 
+width: 400px; 
+transition: 0.5s; 
+margin-left: 0; 
+margin-bottom: 0; 
+} 
+
+#topheader{ 
+margin-top: 20px; 
+margin-bottom: 0;
+} 
+
+.toplinks:hover{ 
+color: gray; 
+background-color: whitesmoke; 
+} 
+
+#topimage{ 
+width: 60px; 
+height: 60px; 
+padding-right: 30px; 
+padding-left: 30px; 
+padding-top: 10px; 
+} 
+
+#topimage:hover{ 
+filter:drop-shadow(3px 3px gray); 
+} 
+
+#searchbar{ 
+display: flex; 
+margin-bottom: 0; 
+} 
+
+#topmenu{ 
+display: flex; 
+background-color: #ff9900; 
+} 
+
+#search[type=text]{ 
+width: 350px; 
+font-size: 25px; 
+height: 50px; 
+} 
+
+#search{ 
+margin-top: 9px; 
+margin-left: 150px; 
+border-radius: 5px; 
+background-color: whitesmoke; 
+} 
+
+#go{ 
+margin-top: 10px; 
+font-size: 30px; 
+padding-left: 5px; 
+padding-right: 24px; 
+-webkit-user-select: none; 
+border: 1px solid white; 
+background-color: whitesmoke; 
+border-top-right-radius: 50%; 
+border-bottom-right-radius: 50%; 
+padding-top: 3px; 
+padding-bottom: 3px; 
+border-left: none; 
+margin-bottom: 12px; 
+transition: 0.5s; 
+} 
+
+#go:hover{ 
+background-color: #e6e6e6; 
+padding-right: 30px; 
+}
+
+.about{ 
+font-size: 35px; 
+padding-left: 50px; 
+} 
+
+#menubutton{ 
+display: flex; 
+} 
+
+.startbtn{ 
+text-decoration: none; 
+background-color: #ff9900; 
+color: white; 
+font-size: 40px; 
+margin-right: 470px; 
+margin-left: 470px; 
+padding-left: 60px; 
+padding-right: 60px; 
+padding-top: 30px; 
+padding-bottom: 30px; 
+transition: 0.5s; 
+border-radius: 50px; 
+} 
+
+.startbtn:hover{ 
+border-radius: 50px; 
+background-color: #ffc800; 
+color: whitesmoke; 
+} 
+
+#menubutton{ 
+margin-bottom: 50px; 
+margin-top: 50px; 
+} 
