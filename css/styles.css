@@ -1,6 +1,7 @@
 body{
 background-color: whitesmoke; 
 font-family: 'Nunito', sans-serif; 
+
 } 
 
 .title{ 
@@ -11,7 +12,7 @@ margin-bottom: 0;
 } 
 
 #subtitle{ 
-color: gray; 
+color: #575757; 
 text-align: center; 
 font-size: 35px; 
 } 
@@ -100,7 +101,9 @@ padding-right: 30px;
 
 .about{ 
 font-size: 35px; 
-padding-left: 50px; 
+margin-left: 100px; 
+margin-top: 70px;
+
 } 
 
 #menubutton{ 
@@ -120,6 +123,7 @@ padding-top: 30px;
 padding-bottom: 30px; 
 transition: 0.5s; 
 border-radius: 50px; 
+margin-bottom: 0;
 } 
 
 .startbtn:hover{ 
@@ -132,3 +136,89 @@ color: whitesmoke;
 margin-bottom: 50px; 
 margin-top: 50px; 
 } 
+
+.aboutinfo{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #575757;
+}
+
+.learnmore{
+    color: #ff9900;
+    transition: 0.5s;
+
+}
+
+.learnmore:hover{
+    color: #ffc800;
+    opacity: 0.9;
+}
+
+#search2[type=text]{ 
+    width: 700px; 
+    font-size: 25px; 
+    height: 50px; 
+    transition: 0.5s;
+    margin-left:100px;
+    opacity: 0.6;
+} 
+
+#search2:hover{
+    border: 2px solid #ff9900;
+}
+
+#searchbar2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+#find{
+    color: white;
+    font-size: 25px;
+    background-color: #ff9900;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-top: 0;
+    transition: 0.5s;
+    -webkit-user-select: none;
+}
+
+#find:hover{
+    background-color: #ffc800;
+    padding-left: 40px;
+}
+
+#update{
+    font-size: 30px;
+    color: #575757;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bottomlink{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    color: #ff9900;
+    transition: 0.5s;
+}
+
+.bottomlink:hover{
+    color: #ffc800;
+    opacity: 0.9;
+}
+
+#linkholder{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#copyright{
+    text-align: center;
+    color: #575757;
+    margin-top: 30px;
+}
